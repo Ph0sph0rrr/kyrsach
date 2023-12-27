@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/dark_blue"
+    tools:context=".Activities.MenuActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MusicStore"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/tan"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/btnViewMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Каталог магазина"
+        android:backgroundTint="@color/tan"
+        android:textColor="#FFFFFF" />
+
+
+    <Button
+        android:id="@+id/btnOrderHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="История заказов"
+        android:backgroundTint="@color/tan"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выход из аккаунта"
+        android:backgroundTint="@color/tan"
+        android:textColor="#FFFFFF" />
+
+
+</LinearLayout>
